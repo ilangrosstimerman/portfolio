@@ -97,23 +97,50 @@ main {
       max-width: 600px;
       max-height: 600px;
       padding: 60px;
-      margin-left: 200px;
       border-radius: 90%;
   }
 
-  #bio-text {
-      float: right;
-      height: 603.33px;
-      width: 44%;
-      margin-right: 200px;
-      padding-top: 130px;
-      display: flex;
+  #bio h2 {
+      font-size: 50px;
   }
 
-    #bio-text h2 {
-        font-size: 50px;
-        position: relative;
+  #bio-container {
+      display: block;
+  }
 
+
+  #bio-columns {
+      display: grid;
+      grid-auto-columns: 1fr;
+      column-gap: 64px;
+      row-gap: 48px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+  }
+
+    #bio-img {
+        margin: auto;
+    }
+
+    #bio-text {
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #bio p {
+        padding-top: 50px;
+        padding-right: 80px;
+    }
+
+    @media only screen and (max-width: 1100px) {
+        #bio-text {
+            display: none;
+        }
+        #bio-columns {
+            display:flex;
+            margin: auto;
+        }
     }
 
     #linkedin-button {
