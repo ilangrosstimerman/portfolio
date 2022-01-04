@@ -46,10 +46,8 @@ a {
 main {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2%;
-    margin: auto;
-    margin-left: 60px;
-    margin-top: 25px;
+    justify-content: center;
+    padding-top: 30px;
   }  
 
 .project {
@@ -73,7 +71,7 @@ main {
   }
 
   footer {
-    position: absolute;
+    position: relative;
     background: #b7463c;
     bottom: 0px;
     width: 100%;
@@ -82,3 +80,36 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
+  #bio {
+      background-color: #F1F1F1;
+      height: 720px;  
+}
+
+  #bio img {
+      max-width: 600px;
+      max-height: 600px;
+      margin-left: 190px;
+      margin-top: 50px;
+      padding: 60px;
+      border-radius: 90%;
+      justify-content: center;
+  }
+
+  #bio div{
+      float: right;
+      position: relative;
+      width: 1000px;
+      padding-top: 120px;
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #bio h2 {
+        font-size: 30px;
+    }
+
+    #bio ul {
+        margin-top: 60px;
+        margin-left: 20px;
+    }
