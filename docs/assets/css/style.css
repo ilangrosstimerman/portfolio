@@ -83,33 +83,34 @@ main {
 
   #bio {
       background-color: #F1F1F1;
-      height: 720px;  
-}
+      height: auto;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      justify-content: center;
+      }
 
   #bio img {
+      position: relative;
       max-width: 600px;
       max-height: 600px;
-      margin-left: 190px;
-      margin-top: 50px;
       padding: 60px;
+      margin-left: 200px;
+      margin-right: 800px;
       border-radius: 90%;
-      justify-content: center;
   }
 
   #bio div{
-      float: right;
-      position: relative;
-      width: 1000px;
-      padding-top: 120px;
-      font-size: 20px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
+      display:flex;
+        }
 
     #bio h2 {
         font-size: 30px;
     }
 
-    #bio ul {
-        margin-top: 60px;
-        margin-left: 20px;
+    #linkedin-button {
+      position: absolute;
+
+    }
+    
+    #linkedin-button img {
+        max-width: 100px;
     }
