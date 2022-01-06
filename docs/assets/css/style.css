@@ -63,7 +63,7 @@ main {
 
   
   #p1 {
-    background-image: url("./images/Horiseon.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-image: url("../images/Horiseon.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-size: cover;
     background-blend-mode: overlay;
     width: 1720px;
