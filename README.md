@@ -11,7 +11,7 @@ A website to showcase Ilan Timerman's projects.
 ![Alt text](docs/assets/images/Screenshot.png "Home Page")
 
 ## Website
-https://ilantimerman.github.io/horiseon-marketing-services/
+https://ilantimerman.github.io/portfolio/
 
 ## Contribution
 Ilan Timerman 
