@@ -106,7 +106,7 @@ main {
       justify-content: center;
       }
 
-  #bio img {
+  #bio-left img {
       position: relative;
       max-width: 600px;
       max-height: 600px;
@@ -116,6 +116,14 @@ main {
 
   #bio h2 {
       font-size: 50px;
+  }
+
+  #bio p {
+      font-size: 20px;
+  }
+
+  #bio a {
+      color: black;
   }
 
   #bio-container {
@@ -132,11 +140,11 @@ main {
       grid-template-rows: auto;
   }
 
-    #bio-img {
+    #bio-left {
         margin: auto;
     }
 
-    #bio-text {
+    #bio-right {
         margin-right: auto;
         margin-top: auto;
         margin-bottom: auto;
@@ -146,6 +154,14 @@ main {
     #bio p {
         padding-top: 50px;
         padding-right: 80px;
+    }
+
+    #bio-right img {
+        max-height: 30px;
+        position: relative;
+        bottom: 25px;
+        left: 105px;
+    
     }
 
     @media only screen and (max-width: 1100px) {
