@@ -87,6 +87,22 @@ main {
       
   }
 
+  #p2 {
+    background-image: url("../images/assassination.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 2750px;
+
+  }
+
+  #p2 .p-title {
+      color: white;
+      font-size: 35px;
+      position: relative;
+      
+  }
+
+
   .p-title {
       margin-top: 180px;
   }
